@@ -1,0 +1,52 @@
+#conteudo{
+    position: relative;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    color: black;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;      
+}
+
+#divBusca{
+    margin-left: 50vh;
+    margin-top: 35vh;
+    position: absolute;
+    background-color: transparent;
+    width:800px;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+}
+#txtBusca{
+    float:left;
+    background-color:#A8A8A8;
+    padding-left:50px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:23px;
+    border:none;
+    height:100%;
+    width:350px;
+}
+#btnBusca{
+    border:none;
+    float:left;
+    height:100%;
+    width:300px;
+    font-weight:bold;
+    background:#FFD15A;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+}
+#txtBusca::placeholder{
+    color: black;
+}
+
+    

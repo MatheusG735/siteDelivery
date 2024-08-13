@@ -1,0 +1,57 @@
+#conteudo{
+    position: relative;
+    padding-top: 200px;
+    background-color: white;
+    width: 100%;
+    height: 85vh;
+    color: black;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;      
+}
+form{
+    position: absolute;
+    margin-left: 78vh;
+    height: 50vh;
+}
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 5px 5px 5px #DDDD;
+}
+
+input{
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+input:hover, input:focus{
+    border: solid black 2px;
+    background-color: #A8A8A8;
+    color: black;
+    font-weight: bold;
+}
+
+input:hover::placeholder { color: black;}
+
+#alinhar{
+    width: 100%;
+    display: grid;
+}
+.enviar {
+    background-color: #FFD15A;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
